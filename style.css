@@ -1,0 +1,41 @@
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.inner-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 720px;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.mtg-set {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 240px;
+  max-width: 240px;
+  padding: 5px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.mtg-set__name {
+  font-size: 12px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.mtg-set__logo {
+  width: auto;
+  height: 22px;
+}
+
+@media print {
+
+  .mtg-set {
+    border: 1px solid rgba(0, 0, 0, 0.03);
+  }
+
+}
