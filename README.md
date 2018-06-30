@@ -2,7 +2,7 @@
 ========
 Static site, use for custom trade card (MTG) dividers label
 
-## How to use
+#How to use
 ========
 * Open the page in your way
 * Print it
